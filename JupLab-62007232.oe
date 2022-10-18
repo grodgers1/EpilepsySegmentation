@@ -1,0 +1,102 @@
+
+     Copy/Paste this in your local terminal to ssh tunnel with remote
+-----------------------------------------------------------------
+     ssh -N -L 9309:10.1.22.31:9309 panile54@login.scicore.unibas.ch
+-----------------------------------------------------------------
+
+     Then open a browser on your local machine to the following address
+------------------------------------------------------------------
+     https://localhost:9309  (see log file for token)
+------------------------------------------------------------------
+     
+[I 2022-10-17 15:39:09.917 ServerApp] jupyterlab | extension was successfully linked.
+[I 2022-10-17 15:39:09.938 ServerApp] nbclassic | extension was successfully linked.
+[I 2022-10-17 15:39:13.457 ServerApp] notebook_shim | extension was successfully linked.
+[I 2022-10-17 15:39:13.678 ServerApp] notebook_shim | extension was successfully loaded.
+[I 2022-10-17 15:39:13.680 LabApp] JupyterLab extension loaded from /scicore/home/muelleb/panile54/miniconda3/envs/myenv/lib/python3.9/site-packages/jupyterlab
+[I 2022-10-17 15:39:13.680 LabApp] JupyterLab application directory is /scicore/home/muelleb/panile54/miniconda3/envs/myenv/share/jupyter/lab
+[I 2022-10-17 15:39:13.688 ServerApp] jupyterlab | extension was successfully loaded.
+[I 2022-10-17 15:39:13.717 ServerApp] nbclassic | extension was successfully loaded.
+[I 2022-10-17 15:39:13.719 ServerApp] Serving notebooks from local directory: /scicore/home/muelleb/panile54/EpilepsySegmentation
+[I 2022-10-17 15:39:13.719 ServerApp] Jupyter Server 1.16.0 is running at:
+[I 2022-10-17 15:39:13.719 ServerApp] https://10.1.22.31:9309/lab?token=e9279bd78c703b8dcbc30e5e7ff8017dc02255c08f3b78ec
+[I 2022-10-17 15:39:13.719 ServerApp]  or https://127.0.0.1:9309/lab?token=e9279bd78c703b8dcbc30e5e7ff8017dc02255c08f3b78ec
+[I 2022-10-17 15:39:13.720 ServerApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 2022-10-17 15:39:13.741 ServerApp] 
+    
+    To access the server, open this file in a browser:
+        file:///scicore/home/muelleb/panile54/.local/share/jupyter/runtime/jpserver-28253-open.html
+    Or copy and paste one of these URLs:
+        https://10.1.22.31:9309/lab?token=e9279bd78c703b8dcbc30e5e7ff8017dc02255c08f3b78ec
+     or https://127.0.0.1:9309/lab?token=e9279bd78c703b8dcbc30e5e7ff8017dc02255c08f3b78ec
+[W 2022-10-17 15:40:32.591 ServerApp] SSL Error on 8 ('10.1.0.193', 39998): [SSL: SSLV3_ALERT_BAD_CERTIFICATE] sslv3 alert bad certificate (_ssl.c:1129)
+[W 2022-10-17 15:40:40.936 LabApp] Could not determine jupyterlab build status without nodejs
+[W 2022-10-17 15:40:58.882 ServerApp] delete /Untitled.ipynb
+[I 2022-10-17 15:41:17.376 ServerApp] Kernel started: 997e091e-bdfb-481f-8333-641ac7cab4b9
+[I 2022-10-17 15:41:18.722 ServerApp] Kernel started: dbc1efd3-d22d-4bd7-9849-d314e0c2ff74
+[I 2022-10-17 15:41:19.769 ServerApp] Kernel started: f47a3b7e-2fa5-4d9f-b52b-df4a4d76f249
+[W 2022-10-17 15:42:01.334 ServerApp] 404 GET /api/contents/data_splits.ipynb?1666014121181 (10.1.0.193): No such file or directory: data_splits.ipynb
+[W 2022-10-17 15:42:01.337 ServerApp] No such file or directory: data_splits.ipynb
+[W 2022-10-17 15:42:01.337 ServerApp] 404 GET /api/contents/data_splits.ipynb?1666014121181 (10.1.0.193) 4.35ms referer=https://127.0.0.1:9309/lab/tree/data_splits_UNETv6_v2.ipynb
+[W 2022-10-17 15:42:01.416 ServerApp] 404 GET /api/contents/data_splits.ipynb?content=0&1666014121276 (10.1.0.193): No such file or directory: data_splits.ipynb
+[W 2022-10-17 15:42:01.416 ServerApp] No such file or directory: data_splits.ipynb
+[W 2022-10-17 15:42:01.417 ServerApp] 404 GET /api/contents/data_splits.ipynb?content=0&1666014121276 (10.1.0.193) 1.29ms referer=https://127.0.0.1:9309/lab/tree/data_splits_UNETv6_v2.ipynb
+[I 2022-10-17 15:42:01.459 ServerApp] Uploading file to /data_splits.ipynb
+[I 2022-10-17 15:44:13.374 ServerApp] Saving file at /data_splits.ipynb
+[I 2022-10-17 15:45:58.436 ServerApp] Saving file at /data_splits.ipynb
+[I 2022-10-17 15:47:58.590 ServerApp] Saving file at /data_splits.ipynb
+[W 2022-10-17 15:51:22.754 LabApp] Could not determine jupyterlab build status without nodejs
+[W 2022-10-17 15:51:52.880 ServerApp] WebSocket ping timeout after 119922 ms.
+[W 2022-10-17 15:51:52.959 ServerApp] WebSocket ping timeout after 119986 ms.
+[W 2022-10-17 15:51:53.120 ServerApp] WebSocket ping timeout after 119985 ms.
+[W 2022-10-17 15:51:53.206 ServerApp] WebSocket ping timeout after 119983 ms.
+[W 2022-10-17 15:51:53.359 ServerApp] WebSocket ping timeout after 119985 ms.
+[I 2022-10-17 15:51:57.882 ServerApp] Starting buffering for 997e091e-bdfb-481f-8333-641ac7cab4b9:964e1849-b786-462a-b368-4d64e5b9cc7d
+[I 2022-10-17 15:51:58.360 ServerApp] Starting buffering for f47a3b7e-2fa5-4d9f-b52b-df4a4d76f249:0993f95d-c880-45b5-ba67-e2d940f64ca5
+[W 2022-10-17 15:52:13.519 ServerApp] WebSocket ping timeout after 119981 ms.
+[I 2022-10-17 15:54:08.921 ServerApp] Kernel started: ffaf8442-d8bf-46eb-b979-8d4ce6fc97f1
+[W 2022-10-17 15:54:18.404 ServerApp] Got events for closed stream None
+[I 2022-10-17 15:54:41.554 ServerApp] Kernel started: 37d33f82-0805-42fc-97b7-da1ed5a18868
+[I 2022-10-17 15:55:34.350 ServerApp] Starting buffering for 37d33f82-0805-42fc-97b7-da1ed5a18868:5f4ab192-5be2-4ee6-8923-db2268b42680
+[W 2022-10-17 15:56:30.790 ServerApp] 404 GET /api/contents/AnalyzeTrainingRuns.ipynb?1666014990654 (10.1.0.193): No such file or directory: AnalyzeTrainingRuns.ipynb
+[W 2022-10-17 15:56:30.791 ServerApp] No such file or directory: AnalyzeTrainingRuns.ipynb
+[W 2022-10-17 15:56:30.791 ServerApp] 404 GET /api/contents/AnalyzeTrainingRuns.ipynb?1666014990654 (10.1.0.193) 1.70ms referer=https://127.0.0.1:9309/lab/tree/HyperparameterTuning_v1.ipynb
+[W 2022-10-17 15:56:30.912 ServerApp] 404 GET /api/contents/AnalyzeTrainingRuns.ipynb?content=0&1666014990775 (10.1.0.193): No such file or directory: AnalyzeTrainingRuns.ipynb
+[W 2022-10-17 15:56:30.912 ServerApp] No such file or directory: AnalyzeTrainingRuns.ipynb
+[W 2022-10-17 15:56:30.913 ServerApp] 404 GET /api/contents/AnalyzeTrainingRuns.ipynb?content=0&1666014990775 (10.1.0.193) 1.59ms referer=https://127.0.0.1:9309/lab/tree/HyperparameterTuning_v1.ipynb
+[I 2022-10-17 15:56:31.954 ServerApp] Uploading file to /AnalyzeTrainingRuns.ipynb
+[W 2022-10-17 15:56:37.706 ServerApp] delete /HyperparameterTuning_v1.ipynb
+[W 2022-10-17 15:58:08.910 ServerApp] 404 GET /api/contents/DataSplits.ipynb?1666015088769 (10.1.0.193): No such file or directory: DataSplits.ipynb
+[W 2022-10-17 15:58:08.912 ServerApp] No such file or directory: DataSplits.ipynb
+[W 2022-10-17 15:58:08.912 ServerApp] 404 GET /api/contents/DataSplits.ipynb?1666015088769 (10.1.0.193) 6.79ms referer=https://127.0.0.1:9309/lab/tree/data_splits.ipynb
+[W 2022-10-17 15:58:09.000 ServerApp] 404 GET /api/contents/DataSplits.ipynb?content=0&1666015088869 (10.1.0.193): No such file or directory: DataSplits.ipynb
+[W 2022-10-17 15:58:09.000 ServerApp] No such file or directory: DataSplits.ipynb
+[W 2022-10-17 15:58:09.000 ServerApp] 404 GET /api/contents/DataSplits.ipynb?content=0&1666015088869 (10.1.0.193) 1.34ms referer=https://127.0.0.1:9309/lab/tree/data_splits.ipynb
+[I 2022-10-17 15:58:09.062 ServerApp] Uploading file to /DataSplits.ipynb
+[I 2022-10-17 15:58:13.414 ServerApp] Kernel shutdown: f47a3b7e-2fa5-4d9f-b52b-df4a4d76f249
+[W 2022-10-17 15:58:13.712 ServerApp] delete /data_splits.ipynb
+[I 2022-10-17 16:10:48.878 ServerApp] Starting buffering for dbc1efd3-d22d-4bd7-9849-d314e0c2ff74:4440e868-fd4a-4249-bd0d-96c6ea38af5e
+[I 2022-10-17 16:10:48.880 ServerApp] Starting buffering for ffaf8442-d8bf-46eb-b979-8d4ce6fc97f1:b1f75539-242c-4409-9c60-8d7b67f0ae03
+[I 2022-10-17 16:10:49.106 ServerApp] Starting buffering for ffaf8442-d8bf-46eb-b979-8d4ce6fc97f1:7418a91d-3ae8-43f3-b1a0-b1bebacc3132
+[W 2022-10-17 16:10:52.312 LabApp] Could not determine jupyterlab build status without nodejs
+[I 2022-10-17 16:26:54.088 ServerApp] Saving file at /README.md
+[I 2022-10-17 16:36:33.529 ServerApp] Saving file at /README.md
+[I 2022-10-17 16:36:48.646 ServerApp] Saving file at /README.md
+[I 2022-10-17 16:37:59.837 ServerApp] Saving file at /README.md
+[I 2022-10-17 16:38:00.064 ServerApp] Saving file at /README.md
+[I 2022-10-17 16:38:00.213 ServerApp] Saving file at /README.md
+[I 2022-10-17 16:38:00.401 ServerApp] Saving file at /README.md
+[I 2022-10-17 16:40:00.472 ServerApp] Saving file at /README.md
+[I 2022-10-17 16:42:00.547 ServerApp] Saving file at /README.md
+[I 2022-10-17 16:42:49.328 ServerApp] Saving file at /README.md
+[I 2022-10-17 16:43:17.177 ServerApp] Saving file at /README.md
+[I 2022-10-17 17:06:49.004 ServerApp] Saving file at /README.md
+[I 2022-10-17 17:06:49.170 ServerApp] Saving file at /README.md
+[I 2022-10-17 17:06:49.346 ServerApp] Saving file at /README.md
+[I 2022-10-17 17:08:49.482 ServerApp] Saving file at /README.md
+[I 2022-10-17 17:10:16.135 ServerApp] Saving file at /README.md
+[I 2022-10-17 17:10:17.977 ServerApp] Saving file at /README.md
+[I 2022-10-17 17:11:30.845 ServerApp] Saving file at /README.md
+[I 2022-10-17 17:11:33.911 ServerApp] Starting buffering for ffaf8442-d8bf-46eb-b979-8d4ce6fc97f1:9419e109-302f-405f-89a8-cd43a5ff8f6a
+[I 2022-10-17 17:11:34.413 ServerApp] Starting buffering for dbc1efd3-d22d-4bd7-9849-d314e0c2ff74:304f939d-c9a3-4197-ac39-2ed85da86b18
+slurmstepd: error: *** JOB 62007232 ON sei31 CANCELLED AT 2022-10-17T21:38:56 DUE TO TIME LIMIT ***
